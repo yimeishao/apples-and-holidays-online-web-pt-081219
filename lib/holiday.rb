@@ -63,6 +63,7 @@ holiday_hash.each do |season, holiday|
    name_array = name.to_s.split("_")
    name_strings_array = name_array.map{|string| string.capitalize}
    name_string = name_strings_array.join(" ")
+   name_strings_array
    puts name_strings_array + ": " + supplies.join(", ")
 end    
 end
